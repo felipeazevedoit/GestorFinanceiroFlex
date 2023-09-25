@@ -5,9 +5,16 @@ namespace GestorFinanceiroFlex.Servicos
 {
     public class CalculadoraComissaoServico : ICalculadoraComissao
     {
+        private object @object;
+
+        public CalculadoraComissaoServico(object @object)
+        {
+            this.@object = @object;
+        }
+
         public decimal CalcularComissao(Venda venda)
         {
-            return venda.ValorVenda * 0.1m; // 10% do valor da venda como comissão        }
+            return venda.ValorTotal * 0.1m; // 10% do valor da venda como comissão        }
         }
     }
 }

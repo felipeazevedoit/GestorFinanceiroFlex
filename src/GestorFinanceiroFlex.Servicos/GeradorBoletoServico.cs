@@ -11,6 +11,9 @@ namespace GestorFinanceiroFlex.Servicos
 
         private readonly IBoletoRepositorio _repositorioBoleto;
 
+        public GeradorBoletoServico()
+        {
+        }
 
         public GeradorBoletoServico(IBoletoRepositorio repositorioBoleto)
         {

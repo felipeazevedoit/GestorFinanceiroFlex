@@ -6,5 +6,6 @@
         public Produto? Produto { get; set; }
         public DateTime? DataVenda { get; set; }
         public decimal ValorVenda { get; set; }
+        public int ValorTotal { get; set; }
     }
 }
