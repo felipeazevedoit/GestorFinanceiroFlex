@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorFinanceiroFlex.API", "GestorFinanceiroFlex.API.csproj", "{7E92C705-0989-416E-8E93-9322D608EA0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentação", "Apresentação", "{DF22C147-F979-400F-8EC1-FDC7411E14E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{78222F38-248E-4BD6-A6EB-1B6C9CD6DC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoFinanceiroFlex.Dominio", "..\GestaoFinanceiroFlex.Dominio\GestaoFinanceiroFlex.Dominio.csproj", "{FDFD5726-A5F9-439C-8A0B-7BD3A5C4F0C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{2C69034C-E601-448F-A5AD-574DAF374E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorFinanceiroFlex.Servicos", "..\GestorFinanceiroFlex.Servicos\GestorFinanceiroFlex.Servicos.csproj", "{8EC3A5B0-3EC1-497F-B97E-6AF98987585B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorio", "Repositorio", "{39106EEB-8201-4600-ABF9-440425182D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorFinanceiroFlex.Repositorio", "..\GestorFinanceiroFlex.Repositorio\GestorFinanceiroFlex.Repositorio.csproj", "{D638566A-F67E-4BDC-BB4C-1299EA0A6F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E92C705-0989-416E-8E93-9322D608EA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E92C705-0989-416E-8E93-9322D608EA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E92C705-0989-416E-8E93-9322D608EA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E92C705-0989-416E-8E93-9322D608EA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFD5726-A5F9-439C-8A0B-7BD3A5C4F0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFD5726-A5F9-439C-8A0B-7BD3A5C4F0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFD5726-A5F9-439C-8A0B-7BD3A5C4F0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFD5726-A5F9-439C-8A0B-7BD3A5C4F0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC3A5B0-3EC1-497F-B97E-6AF98987585B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC3A5B0-3EC1-497F-B97E-6AF98987585B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC3A5B0-3EC1-497F-B97E-6AF98987585B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC3A5B0-3EC1-497F-B97E-6AF98987585B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D638566A-F67E-4BDC-BB4C-1299EA0A6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D638566A-F67E-4BDC-BB4C-1299EA0A6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D638566A-F67E-4BDC-BB4C-1299EA0A6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D638566A-F67E-4BDC-BB4C-1299EA0A6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E92C705-0989-416E-8E93-9322D608EA0E} = {DF22C147-F979-400F-8EC1-FDC7411E14E2}
+		{FDFD5726-A5F9-439C-8A0B-7BD3A5C4F0C2} = {78222F38-248E-4BD6-A6EB-1B6C9CD6DC87}
+		{8EC3A5B0-3EC1-497F-B97E-6AF98987585B} = {2C69034C-E601-448F-A5AD-574DAF374E9D}
+		{D638566A-F67E-4BDC-BB4C-1299EA0A6F24} = {39106EEB-8201-4600-ABF9-440425182D82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3152FEA2-7787-4571-AA9F-9B1E4F274CD7}
+	EndGlobalSection
+EndGlobal
